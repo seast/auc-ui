@@ -64,10 +64,11 @@ input[type=checkbox] {
   color: #999;
 }
 
+/*
 .plot-container {
   box-sizing: border-box;
-  width: 600px;
-  height: 600px;
+  width: 400px;
+  height: 700px;
   padding: 20px 20px 35px 35px;
   margin: 15px auto 30px auto;
   border: 1px solid #ddd;
@@ -83,6 +84,7 @@ input[type=checkbox] {
   -moz-box-shadow: 0 3px 10px rgba(0,0,0,0.1);
   -webkit-box-shadow: 0 3px 10px rgba(0,0,0,0.1);
 }
+*/
 
 .plot-placeholder {
   width: 100%;
@@ -96,28 +98,28 @@ input[type=checkbox] {
 }
 
 .axisLabel {
-	position: absolute;
-	text-align: center;
-	font-size: 14px;
+  position: absolute;
+  text-align: center;
+  font-size: 14px;
 }
 
 .yaxisLabel {
-	top: 50%;
-	left: -25px;
-	transform: rotate(-90deg);
-	-o-transform: rotate(-90deg);
-	-ms-transform: rotate(-90deg);
-	-moz-transform: rotate(-90deg);
-	-webkit-transform:  rotate(-90deg);
-	transform-origin: 0 0;
-	-o-transform-origin: 0 0;
-	-ms-transform-origin: 0 0;
-	-moz-transform-origin: 0 0;
-	-webkit-transform-origin: 0 0;
+  top: 50%;
+  left: -25px;
+  transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -webkit-transform:  rotate(-90deg);
+  transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
 }
 
 .xaxisLabel {
-	bottom: -25px;
-        left: 50%;
+  bottom: -25px;
+  left: 50%;
 }
 
